@@ -319,6 +319,10 @@ section h2 {
   transform: translate(0%, -50%); 
   user-select: none; /* -- Prevent image highlighting -- */
 }
+#image-track a {
+  user-select: none;
+  -webkit-user-drag: none;
+}
 
 #image-track figure {
   width: 300px;
@@ -330,6 +334,13 @@ section h2 {
   height: 100%;
   object-fit: cover;
   object-position: 100% center;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  user-select: none;
+  -webkit-user-drag: none;
 }
 
 
